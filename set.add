@@ -1,0 +1,11 @@
+N=int(input())
+t=[]
+x=[]
+for i in range(N):
+    t.append(input())
+for i in t:
+    if i not in x:
+        x.append(i)
+print(len(x))
+    
+    
